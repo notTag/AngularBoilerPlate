@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>AngularJs BoilerPlate</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <script src="lib/angular1.4.8.js"></script>
+        <script src="lib/angular-route.js"></script>
+
+        <script src="js/app.js"></script>
+
+        <!--Controllers-->
+        <script src="js/controllers/MyController.js"></script>
+
+        <!--Services-->
+        <script src="js/services/MyService.js"></script>
+
+        <!--Base Reference for routing-->
+        <base href="http://localhost:8383/AngularBoilerPlate/">
+    </head>
+    <body ng-app="app">
+        <a href="myView">
+            <button>
+                My View
+            </button>
+        </a>
+        <div class="ng-view"></div>
+    </body>
+</html>
