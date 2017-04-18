@@ -1,0 +1,12 @@
+{
+    "attributes": {
+        "my-directive": {}
+    },
+    "elements": {
+        "my-directive": {
+            "attributes": {
+                "name": {}
+            }
+        }
+    }
+}
